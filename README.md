@@ -35,6 +35,7 @@ Navegue até a pasta do projeto:
 
 ```bash
 cd livros_angular
+```
 
 Instale as dependências:
 
