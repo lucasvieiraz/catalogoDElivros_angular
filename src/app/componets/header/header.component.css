@@ -1,0 +1,54 @@
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #007bff;
+  }
+  
+  .brand, .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  
+  .brand img {
+    width: 100px;
+    margin-right: 0.6em;
+  }
+  
+  .brand h2 {
+    transition: .4s;
+  }
+  
+  .brand:hover > h2 {
+    color: #007bff;
+  }
+  
+  .links li {
+    margin-right: 1em;
+    margin-top: 3px;
+    list-style: none;
+  }
+  
+  .links a {
+    padding: .1em .3em;
+  }
+  
+  #add a {
+    color: #007bff;
+  }
+  
+  #add a:hover {
+    background-color: #efefef;
+  }
+
+header {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
