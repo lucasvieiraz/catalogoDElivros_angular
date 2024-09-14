@@ -1,27 +1,51 @@
-# LivrosAngular
+## Catálogo de Livros - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
+Este é um projeto front-end em Angular que permite aos usuários buscar informações sobre livros, como resumos e capas, usando a API de livros do Google.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Busca de livros pelo título.
 
-## Code scaffolding
+Exibição de detalhes do livro, incluindo título, autores, descrição e capa.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Mensagem de boas-vindas personalizada ao carregar a aplicação.
 
-## Build
+## Tecnologias Utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Angular: Framework front-end utilizado para criar a aplicação.
 
-## Running unit tests
+Google Books API: API usada para obter informações sobre os livros, como título, autores, descrição e imagem da capa.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Como Funciona
+O usuário insere o título do livro desejado no campo de busca.
 
-## Running end-to-end tests
+Ao clicar em "Pesquisar", a aplicação faz uma requisição para a API do Google Books e exibe os resultados.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Se o livro for encontrado, o título, os autores, a descrição e a capa do livro serão exibidos. Caso contrário, será exibida uma mensagem de erro.
 
-## Further help
+## Instalação
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Clone o repositório:
+
+```bash
+git clone https://github.com/lucasvieiraz/catalogoDElivros_angular.git
+```
+
+Navegue até a pasta do projeto:
+
+```bash
+cd livros_angular
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute a aplicação:
+
+```bash
+
+ng serve
+```
+Acesse a aplicação em: http://localhost:4200/
